@@ -1,3 +1,5 @@
+
+#to find the next permutation first we find num1 element those break the order of increasing order from end and then one more time we find element that is less then num1,then we swap both element and from next to num1 we sort in decresing order bcoz we made left part highest so,right part is lowest that is the next greater permutation or subset.
 class Solution:
     def nextPermutation(self, nums: List[int]) -> None:
         n=len(nums)
@@ -32,4 +34,4 @@ class Solution:
         """
         Do not return anything, modify nums in-place instead.
         """
-        
+    
