@@ -39,7 +39,7 @@ class Solution:
 
 #3rd and efficient approach using all possible combination
 
- def uniquePaths(self, m: int, n: int) -> int:
+def uniquePaths(self, m: int, n: int) -> int:
         temp1=(m+n-2)
         temp2=(m-1)
         ans1=1
